@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+.block1 {
+    margin: 10px;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.block2 {
+    margin: 30px 20px;
+    border: 1px solid black;
+    padding: 20px 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    list-style: none;
+}
+
+ul > li {
+    border: 1px solid black;
+    width: 300px;
+    padding: 30px;
+    background: silver;
+}
+
+.block4 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border: 1px dotted red;
+}
+
+ol > li {
+    color: #80135b;
+    padding: 20px;
+}
+
+#section {
+    background: darksalmon;
+    color: #80135b;
+}
+
+.blue_bg {
+    background: blue;
+}
+
+.yellow_bg {
+    background: yellow;
+}
+
+.font {
+    font-size: 20px;
+}
+
+.position {
+    text-align: center;
+}
+
+h5 {
+    color: darksalmon;
+}
